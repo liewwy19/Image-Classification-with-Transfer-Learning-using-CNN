@@ -78,8 +78,6 @@ Project Folder
 
 (Image source: https://neurohive.io/en/popular-networks/vgg16/)
 
-Note: Since the dataset used in this project is in 227x227 pixels, I did not resize it to 224x224 like what it listed in the diagram of VGG-16 Architecture above.
-
 ![](https://github.com/liewwy19/Image-Classification-with-Transfer-Learning-using-CNN/blob/main/feature_extractor_model_summary.png?raw=True)
 
 
