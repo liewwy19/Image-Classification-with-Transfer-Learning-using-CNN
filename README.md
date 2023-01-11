@@ -31,7 +31,7 @@ Clone the project
   git clone https://github.com/liewwy19/Image-Classification-with-Transfer-Learning-using-CNN.git
 ```
 
-Download and extract the dataset into a sub-folder named "datasets" within the projects folder. Your project folder structure should look like the following:
+Download and extract the dataset into a sub-folder named "datasets" within the project's folder. Your project folder structure should look like the following:
 ```bash
 Project Folder
   |
@@ -44,9 +44,7 @@ Project Folder
 ```
 
 
-
-
-## Methodology
+## The Methodology
 + Import packages and define contant variable
 + Data Loading
     + split and load the data into tensorflow datasets using keras.utils library
