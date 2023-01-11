@@ -18,7 +18,7 @@ warnings.filterwarnings("ignore")
 #   constant variables
 _SEED = 142857
 BATCH_SIZE = 64
-IMG_SIZE = (227,227)
+IMG_SIZE = (224,224)
 SOURCE_PATH = os.path.join(os.getcwd(), 'datasets')
 SAVED_MODEL_PATH = os.path.join(os.getcwd(),'saved_models')
 LOG_PATH = os.path.join(os.getcwd(),'logs',datetime.datetime.now().strftime("%Y%m%d-%H%M%S"))
