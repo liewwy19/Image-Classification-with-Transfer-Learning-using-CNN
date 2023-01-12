@@ -5,9 +5,9 @@
 ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 
 
-
 ## Summary
 This project implement a Convolutional Neural Network (CNN) architecture model (i.e. VGG-16) for Image Classification via Transfer Learning using Tensorflow Keras library in Python.
+
 ## Abstract
 There are several types of common concrete cracks namely hairline cracks which
 usually develop in concrete foundation as the concrete cures, shrinkage cracks which
@@ -24,7 +24,6 @@ Datasets used for developing this model can be obtain from [Concrete Crack Image
 This dataset is divided into two as negative and positive crack images for image classification purpose. Each class has 20,000 images with a total of 40,000 images of 277x277 pixels in RGB channels.
 
 ## Run Locally
-
 Clone the project
 
 ```bash
@@ -118,7 +117,6 @@ Referring to the accuracy chart below, we can conclude that we have Higher Start
 
 
 ## Contributing
-
 This project welcomes contributions and suggestions. 
 
     1. Open issues to discuss proposed changes 
@@ -132,3 +130,5 @@ This project welcomes contributions and suggestions.
  - [Transfer learning and fine-tuning - TensorFlow Tutorial](https://www.tensorflow.org/tutorials/images/transfer_learning)
  - [Selangor Human Resource Development Centre (SHRDC)](https://www.shrdc.org.my/)
 
+## License
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
