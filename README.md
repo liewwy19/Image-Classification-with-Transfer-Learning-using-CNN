@@ -18,6 +18,7 @@ well as structural cracks which form due to incorrect design.
 Concrete cracks may endanger the safety and durability of a building if not being
 identified quickly and left untreated. With the help of well establish Convolutional Neural Network (CNN) architecture, this model is tasked to
 perform image classification to classify concretes with or without cracks. This model is impactful and may save thousands of lives.
+
 ## Data Set
 Datasets used for developing this model can be obtain from [Concrete Crack Images for Classification](https://data.mendeley.com/datasets/5y9wdsg2zt/2) (Contributed by: Özgenel, Çağlar Fırat).
 
@@ -82,6 +83,7 @@ Project Folder
 
 ### Final Model Summary
 ![](https://github.com/liewwy19/Image-Classification-with-Transfer-Learning-using-CNN/blob/main/final_model_summary.png?raw=True)
+
 ## The Process (Transfer Learning)
 
 #### Trainable params (Using Pre-trained model as Feature Extrators)
@@ -93,6 +95,7 @@ Project Folder
 ![](https://github.com/liewwy19/Image-Classification-with-Transfer-Learning-using-CNN/blob/main/assets/params_fine_tune.png?raw=True)
 
 ![](https://github.com/liewwy19/Image-Classification-with-Transfer-Learning-using-CNN/blob/main/assets/training_fine_tune.png?raw=True)
+
 ## The Analysis
 The model able to achieve an excellent accuracy and f1-score for both the image classes. Using the award winning VGG-16 model architeture as base model definately part of the reason for this astoundingly results. 
 
@@ -107,6 +110,7 @@ Referring to the accuracy chart below, we can conclude that we have Higher Start
 ![](https://github.com/liewwy19/Image-Classification-with-Transfer-Learning-using-CNN/blob/main/chart_tensorboard_acc.png?raw=True)
 
 ![](https://github.com/liewwy19/Image-Classification-with-Transfer-Learning-using-CNN/blob/main/chart_tensorboard_loss.png?raw=True)
+
 ## The Results
 
 #### Model evaluation using the base model directly without any training
